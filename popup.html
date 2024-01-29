@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Youtube Transcript Summariser</title>
+    <style>
+        body {
+            width: 300px; /* Adjust the width to your preference */
+            padding: 10px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 20px;
+            color: #333; /* Change the color if needed */
+        }
+
+        button {
+            background-color: #4285f4; /* Google blue color, change as needed */
+            color: #fff; /* White text */
+            border: none;
+            border-radius: 8px;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        button[disabled] {
+            background-color: #ccc; /* Light gray for disabled state */
+            cursor: not-allowed;
+        }
+
+        p {
+            font-size: 14px;
+            margin-top: 10px;
+            color: #555; /* Dark gray text color */
+        }
+    </style>
+</head>
+<body>
+    <h1>Youtube video Summariser</h1>
+    <button id="summarise" type="button">Summarise</button>
+    <p id="output"></p>
+    <script src="popup.js"></script>
+</body>
+</html>
