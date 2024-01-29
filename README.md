@@ -6,6 +6,7 @@ A chrome extension to summarise long YouTube videos by utilising YouTube's trans
   - ```flask```
   - ```youtube-transcript-api```
   - ```transformers```
+  - ```tensorflow```
 
 ## Instructions
 - Run ```app.py``` to start the summarizer API.
